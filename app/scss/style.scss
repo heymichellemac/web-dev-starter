@@ -1,5 +1,25 @@
 //This is the root sass file - be sure to import scss files here
 
-@import "variables";
-@import "globals";
-@import "mixins";
+// 1 - Helpers
+@import "1-helpers/variables";
+@import "1-helpers/mixins";
+
+// 2 - Tools
+
+
+// 3 - Basics
+@import "3-basics/base";
+@import "3-basics/buttons";
+@import "3-basics/links";
+@import "3-basics/typography";
+
+// 4 - Layout
+@import "4-layout/navigation";
+@import "4-layout/sidebar";
+@import "4-layout/footer";
+
+// 5 - Modules
+@import "5-modules/card";
+
+// 6 - Pages
+@import "6-pages/homepage";
